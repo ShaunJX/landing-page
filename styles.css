@@ -43,3 +43,32 @@ li {
     font-size: 10px;
     color: lightgray;
 }
+
+.section-one {
+    padding-top: 4em;
+    padding-bottom: 4em;
+    display: flex;
+}
+
+.section-one .text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.section-one .subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    padding: 4px 32px;
+    border-radius: 8px;
+    box-shadow: none;
+    border: 0;
+    cursor: pointer;
+}
+
+.full-blue-button {
+    background-color: #3882F6;
+    color: #f9faf8;
+}
