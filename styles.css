@@ -145,3 +145,37 @@ button {
     font-weight: 700;
     padding-right: 32px;
 }
+
+.section-four {
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.section-four .blue-container {
+    background-color: #3882F6;
+    padding: 48px 4em;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-four .text,
+.section-four .subtext{
+    color: #f9faf8;
+}
+
+.section-four .text {
+    font-weight: 700;
+}
+
+.section-four .subtext {
+    color: #e5e7eb;
+    font-size: 12px;
+}
+
+.section-four button {
+    border: 3px solid #f9faf8;
+    color: #f9faf8;
+    background-color: #3882F6;
+}
