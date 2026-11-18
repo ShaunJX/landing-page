@@ -9,6 +9,15 @@ body {
     color: #f9faf8;
 }
 
+.header,
+.section-one,
+.section-two,
+.section-three,
+.section-four,
+.footer {
+    padding: 0 8em;
+}
+
 .header {
     display: flex;
 }
