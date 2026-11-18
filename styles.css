@@ -27,6 +27,8 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 ul {
@@ -35,4 +37,9 @@ ul {
     justify-content: flex-end;
     align-items: center;
     gap: 24px;
+}
+
+li {
+    font-size: 10px;
+    color: lightgray;
 }
