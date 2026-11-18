@@ -48,6 +48,14 @@ li {
     padding-top: 4em;
     padding-bottom: 4em;
     display: flex;
+    gap: 72px
+}
+
+.section-one .left {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
 }
 
 .section-one .text {
@@ -71,4 +79,8 @@ button {
 .full-blue-button {
     background-color: #3882F6;
     color: #f9faf8;
+}
+
+.section-one img {
+    flex: none
 }
